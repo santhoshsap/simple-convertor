@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,700;1,900&display=swap');
+root{
+    transition: 0.5s ease;
+}
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+#outside{
+    width: 100%;
+    height: 100vh;
+    background: -webkit-radial-gradient(rgb(12, 241, 31), rgb(47, 117, 187));
+    /* -webkit-text-fill-color: transparent; */
+}
+#overall{
+    
+    margin: 30px 70px;
+    width: 90%;
+    height: 90vh;
+    border: 5px solid black;
+}
+#sf{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#f_line{
+    font-family: 'poppins',sans-serif;
+    font-size: 4rem;
+}
+#gradient{
+        font-family: 'poppins',sans-serif;
+        font-size: 4rem;
+        background: -webkit-radial-gradient(rgb(188, 12, 241), rgb(187, 47, 47));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        /* background: -webkit-repeating-radial-gradient(rgb(188, 12, 241), rgb(187, 47, 47)); */
+        padding-left:1rem;
+      
+}
+#s_line{
+    font-family: 'poppins';
+    margin-left: 0.7rem;
+    text-decoration: underline;
+    font-size: 3rem;
+    border-radius: 10px;
+}
+#empty{
+    height: 13vh;
+
+}
+#input{
+    margin-left: 6rem;
+    border-radius: 10px;
+    padding: 0.5rem 0.3rem;
+    border: 3px solid black;
+}
+#input[id="input"]{
+    font-size: 1.5rem;
+}
+#submit{
+    margin-left: 1rem;
+    padding: 0.7rem 2rem;
+    background-color: rgb(187, 184, 184);
+    border-radius: 20px;
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+#submit:hover{
+    /* padding: 0.8rem 2.1rem; */
+    border: 4px solid grey;
+    background-color:rgba(0, 0, 0, 0.772);
+    color: white;
+    transition: 0.2s all ease;
+    cursor: pointer;
+}
+#result{
+    /* border: 2px solid black; */
+    margin-left: 20rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    font-family: 'poppins',sans-serif;
+    background: -webkit-linear-gradient(rgb(0, 107, 128),rgb(255, 0, 51));
+    /* background: -webkit-radial-gradient(rgb(188, 12, 241), rgb(187, 47, 47)); */
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+
+
+
+
+
